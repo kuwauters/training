@@ -1,1 +1,7 @@
 std::print ("hello world")
+
+import app
+import appinfra
+
+aap= appinfra::AppService()
+site1=appinfra::Site(name="demo", app_service=aap)
