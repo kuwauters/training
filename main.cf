@@ -3,5 +3,5 @@ std::print ("hello world")
 import app
 import appinfra
 
-aap= appinfra::AppService()
-site1=appinfra::Site(name="demo", app_service=aap)
+app= appinfra::AppService(network_address = "172.22.0.0/18")
+site1=appinfra::Site(name="openstack", app_service=app, site_index = 0)

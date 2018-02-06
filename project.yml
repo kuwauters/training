@@ -2,5 +2,6 @@ name: app
 modulepath: libs
 downloadpath: libs
 repo:
+    - https://training:Oosai1mahv@modules.inmanta.com/git/nfv/
     - https://github.com/inmanta/
 description: a project to deploy
